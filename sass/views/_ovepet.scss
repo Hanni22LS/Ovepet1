@@ -1,0 +1,26 @@
+/* OVEPET*/
+
+#accordionFlushExample{
+    padding-top: 10%;
+}
+
+.accordion-body{
+    color: $colorSecundario;
+    letter-spacing: $letterSpacing;
+    font-family: $textoPrincipal;
+
+}
+
+.accordion-button.collapsed {
+    color: $colorPrincipal;
+    letter-spacing: $letterSpacing;
+    font-family: $textoPrincipal;
+}
+
+.ovepet{
+padding-top: 5%;
+letter-spacing: $letterSpacing;
+color: $colorPrincipal;
+font-size: $letterSpacing;
+padding-left: 35%;
+}

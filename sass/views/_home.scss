@@ -1,0 +1,49 @@
+
+/*INDEX*/
+
+main{
+    .sec_1{
+        font-family: $textoPrincipal;
+        color: $colorSecundario;
+        letter-spacing: $letterSpacing;
+        display: flex;
+        flex-direction: column;
+    
+            article{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 50px;
+                padding: 0 100px;
+                margin: 50px 0;
+                text-align: justify;
+            
+    
+                .btn-conteiner{
+                    display: flex;
+                    justify-content: center;
+                    margin: 40px 0;
+                }
+    
+                .buttom-primary{
+                    background-color: $colorPrincipal;
+                    font-family: $textoPrincipal;
+                    letter-spacing: $letterSpacing;
+                    color: $colorSecundario;
+                    text-align: center;
+                    padding: 10px;
+                    border-radius: 5px;   
+                }
+            }    
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .sec_1 article{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+

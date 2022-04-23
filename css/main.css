@@ -1,0 +1,217 @@
+/* VARIABLES*/
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,100;1,300&display=swap");
+/*NORMALIZE*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+/*HEADERS*/
+header nav {
+  font-family: "Monserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px; }
+  header nav .nav_links {
+    display: flex;
+    flex-direction: row; }
+  header nav a {
+    margin: 0 20px;
+    letter-spacing: 1px; }
+  header nav .nav__anchor {
+    color: #474747; }
+  header nav .nav__anchor--green {
+    color: #85cb33; }
+  header nav .logo {
+    width: 120px; }
+
+header .wave__conteiner--reverse {
+  transform: rotate(180deg); }
+
+@media screen and (max-width: 700px) {
+  /* NAV */
+  nav {
+    flex-direction: column; }
+  .nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .nav_links a {
+    margin: 20px 0; } }
+
+/*FOOTERS*/
+footer {
+  font-family: "Monserrat", sans-serif;
+  color: #474747;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  margin-top: 30px; }
+  footer img {
+    width: 100px; }
+
+@media screen and (max-width: 700px) {
+  footer {
+    padding-right: 10px;
+    justify-content: center; }
+  footer > img {
+    display: none; } }
+
+/*INDEX*/
+main .sec_1 {
+  font-family: "Monserrat", sans-serif;
+  color: #474747;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column; }
+  main .sec_1 article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding: 0 100px;
+    margin: 50px 0;
+    text-align: justify; }
+    main .sec_1 article .btn-conteiner {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0; }
+    main .sec_1 article .buttom-primary {
+      background-color: #85cb33;
+      font-family: "Monserrat", sans-serif;
+      letter-spacing: 1px;
+      color: #474747;
+      text-align: center;
+      padding: 10px;
+      border-radius: 5px; }
+
+@media screen and (max-width: 700px) {
+  .sec_1 article {
+    display: flex;
+    flex-direction: column; } }
+
+/*TURNOS*/
+.formulario {
+  margin: 100px;
+  padding-bottom: 100px; }
+  .formulario .formulario_flex {
+    display: flex;
+    justify-content: center; }
+
+/*SERVICIOS*/
+.section2 .conteiner {
+  font-family: "Monserrat", sans-serif;
+  color: #474747;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+  text-align: justify; }
+  .section2 .conteiner .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .section2 .conteiner .content .btn-conteiner {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0; }
+      .section2 .conteiner .content .btn-conteiner .buttom-primary {
+        background-color: #85cb33;
+        font-family: "Monserrat", sans-serif;
+        letter-spacing: 1px;
+        color: #474747;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px; }
+
+.perroPelu {
+  padding-left: 50px; }
+
+.perroMujer {
+  padding-right: 50px; }
+
+@media screen and (max-width: 700px) {
+  .section2 > div {
+    display: flex;
+    flex-direction: column;
+    padding: 50px; }
+  .perroPelu {
+    padding-left: 30px; }
+  .perroMujer {
+    padding-left: 20px; } }
+
+/* OVEPET*/
+#accordionFlushExample {
+  padding-top: 10%; }
+
+.accordion-body {
+  color: #474747;
+  letter-spacing: 1px;
+  font-family: "Monserrat", sans-serif; }
+
+.accordion-button.collapsed {
+  color: #85cb33;
+  letter-spacing: 1px;
+  font-family: "Monserrat", sans-serif; }
+
+.ovepet {
+  padding-top: 5%;
+  letter-spacing: 1px;
+  color: #85cb33;
+  font-size: 1px;
+  padding-left: 35%; }
+
+.dire {
+  color: #474747;
+  letter-spacing: 1px;
+  font-family: "Monserrat", sans-serif;
+  font-size: 20px;
+  padding-top: 10%;
+  padding-bottom: 5%; }
+
+.tel {
+  color: #474747;
+  letter-spacing: 1px;
+  font-family: "Monserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10%;
+  padding-top: 5%; }
+
+.contacto {
+  padding-left: 15%; }
+
+@media screen and (max-width: 700px) {
+  /* NAV */
+  nav {
+    flex-direction: column; }
+  .nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .nav_links a {
+    margin: 20px 0; }
+  /* INDEX SECTION 1*/
+  .sec_1 article {
+    display: flex;
+    flex-direction: column; }
+  /*SERVICIOS*/
+  .section2 > div {
+    display: flex;
+    flex-direction: column;
+    padding: 50px; }
+  .perroPelu {
+    padding-left: 30px; }
+  .perroMujer {
+    padding-left: 20px; }
+  /*FOOTER*/
+  footer {
+    padding-right: 10px;
+    justify-content: center; }
+  footer > img {
+    display: none; } }

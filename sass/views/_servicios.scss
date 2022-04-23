@@ -1,0 +1,61 @@
+/*SERVICIOS*/
+
+.section2 {
+    .conteiner {
+    font-family: $textoPrincipal;
+    color: $colorSecundario;
+    letter-spacing: $letterSpacing;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    text-align: justify;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .btn-conteiner {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+
+        .buttom-primary {
+            background-color: $colorPrincipal;
+            font-family: $textoPrincipal;
+            letter-spacing: $letterSpacing;
+            color: $colorSecundario;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+.perroPelu {
+    padding-left: 50px;
+}
+
+.perroMujer {
+    padding-right: 50px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .section2 > div{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .perroPelu{
+        padding-left: 30px;
+    }
+
+    .perroMujer{
+        padding-left: 20px;
+    }
+}
