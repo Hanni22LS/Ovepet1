@@ -12,20 +12,19 @@ header{
 
             .nav_links{
                 display: flex;
-                flex-direction: row;
             }
     
             a{
                 margin: 0 20px;
                 letter-spacing: $letterSpacing;
+
+                    &:hover{
+                        color: $colorPrincipal;
+                    }
             }
-    
+            
             .nav__anchor{
                 color:$colorSecundario;
-            }
-    
-            .nav__anchor--green{
-                color: $colorPrincipal;
             }
     
             .logo{
@@ -41,23 +40,9 @@ header{
     }
 }
 
-$tablets: 700px;
+/*$tablets: 700px;*/
 
-/*MEDIA QUERIES*/
-/*nav{
-    @media (max-width: $tablets){
-        
-            flex-direction: column;
-        
-    
-        
-    
-        .nav_links a{
-            margin: 20px 0;
-        }
-    }
-
-}*/
+/*MEDIA QUERIES
 .nav_links{
     
         @media (max-width: $tablets){
@@ -67,4 +52,4 @@ $tablets: 700px;
 
     
     }
-}
+}*/
