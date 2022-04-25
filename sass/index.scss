@@ -1,10 +1,19 @@
+
+/*GENERALES*/
+
 @import "./misc/variables";
 @import "./misc/normalize";
+
+/* HEADER Y FOOTER*/
+
 @import "./partials/header";
 @import "./partials/footer";
+
+/*PAGES*/
+
 @import "./views/home";
 @import "./views/turnos";
 @import "./views/servicios";
 @import "./views/ovepet";
-@import "./views/contacto";
+@import "./views/tienda";
 @import "./misc/media";

@@ -11,3 +11,49 @@
     }
 }
 
+
+
+/*TARJETA DE CONTACTO*/
+
+.card-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.card-body{
+    font-family: $textoPrincipal;
+    letter-spacing: $letterSpacing;
+    font-size: 1.2rem;
+
+        .card-title{
+            color: $colorPrincipal;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .card-text{
+            color: $colorSecundario;
+        }
+}
+
+.list-group-item{
+    color: $colorSecundario;
+    font-size: 1.2rem;
+}
+
+a:hover{
+    color: $colorPrincipal;
+}
+.card-link{
+    color: $colorSecundario;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+        
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
