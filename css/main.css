@@ -69,6 +69,15 @@ footer {
 
 /*PAGES*/
 /*INDEX*/
+.vetpet h3 {
+  font-family: "Monserrat", sans-serif;
+  color: #85cb33;
+  letter-spacing: 0.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 3.0rem;
+  text-shadow: 2px 2px 2px #474747; }
+
 main .sec_1 {
   font-family: "Monserrat", sans-serif;
   color: #474747;
@@ -96,12 +105,6 @@ main .sec_1 {
       padding: 10px;
       border-radius: 5px; }
 
-/*@media screen and (max-width: 700px){
-    .sec_1 article{
-        display: flex;
-        flex-direction: column;
-    }
-}*/
 /*TURNOS*/
 .formulario {
   margin: 100px;
@@ -176,21 +179,6 @@ a:hover {
 .perroMujer {
   padding-right: 50px; }
 
-/*@media screen and (max-width: 700px) {
-    .section2 > div{
-        display: flex;
-        flex-direction: column;
-        padding: 50px;
-    }
-
-    .perroPelu{
-        padding-left: 30px;
-    }
-
-    .perroMujer{
-        padding-left: 20px;
-    }
-}*/
 /* OVEPET*/
 #accordionFlushExample {
   padding-top: 10%; }
@@ -234,12 +222,10 @@ a:hover {
 .food {
   padding-left: 10%; }
 
-/*@media screen and (max-width: 700px) {
-
-    
-}*/
 @media screen and (max-width: 700px) {
   /* NAV */
+  body {
+    background-color: #EBFFAE; }
   nav {
     flex-direction: column; }
   .nav_links {
@@ -253,6 +239,9 @@ a:hover {
     grid-template-columns: 1fr;
     font-size: 1.4rem;
     padding: 0 10px; }
+  /*TURNOS*/
+  .mapa {
+    overflow: hidden; }
   /*SERVICIOS*/
   .section2 > div {
     display: flex;
@@ -272,6 +261,4 @@ a:hover {
   .marcas {
     display: none; }
   .food {
-    display: none; }
-  .mapa {
     display: none; } }

@@ -1,5 +1,8 @@
 @media screen and (max-width: 700px){
     /* NAV */
+    body{
+        background-color: #EBFFAE;
+    }
     nav{
         flex-direction: column;
     }
@@ -26,6 +29,11 @@
         }
     }
     
+    /*TURNOS*/
+
+    .mapa{
+        overflow: hidden;
+    }
 
     /*SERVICIOS*/
     .section2 > div{
@@ -59,10 +67,6 @@
     }
 
     .food{
-        display:none;
-    }
-
-    .mapa{
         display:none;
     }
 }
